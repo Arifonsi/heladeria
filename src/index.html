@@ -1,14 +1,536 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Page title</title>
-    <link rel="stylesheet" href="./sass/index.scss" />
+    <title>ICE CREAM SHOP</title>
+    <link rel="stylesheet" href="./css/main.min.css"/>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <script type="module" src="./index.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.google.com/specimen/DM+Sans?query=dm" rel="stylesheet">
   </head>
-  <body>
-    <!-- ❗️❗️❗️ Add partials like so for every page -->
-    <include src="./partials/example.html"></include>
+
+<body>
+
+   <section class="header__container">
+    <header class="header__bg">
+      <nav>
+        <div>
+          <div>
+          
+              <svg class="header__logo"  height="58px" width="199px">
+                <use href="images/SVG/icons.svg#ice-cream"></use>
+              </svg>
+        
+          </div>
+          <div class="header__menu">            
+            <button class="header__btn--menu" type="button" data-modal-open>
+          <svg class="header__svg--menu"  width="20px" height="14px">
+                  <use href="images/SVG/icons.svg#3-lines"></use>
+                </svg> 
+          </button>    
+                       
+               
+          </div>
+        </div>
+       
+      </nav>
+
+      <div class="bg__bigicecream"> 
+        <img class="bigicecream" src="images/movile/Heladote-movile.png" alt="helado rico" />
+      </div>
+      <div class="header__title--container">
+        <div>
+          <h1 class="header__title">
+            ice cream <br>
+            made with
+          </h1>
+          <p class="header__title--passions">passion</p>
+        </div>
+        <div class="header__container--btn">
+          <button class="btn__products">Products</button>
+          <button class="btn__made">How it’s made?</button>
+        </div>
+      </div>
+      <div class="header__container--milk">
+                    <img class="header__img--milk" src="images/tablet/glass-milk-tablet.png" alt="glassmilk"
+                    width="213px"
+                    height="216px">
+                <p>Indulge in a scoop of ice<br> 
+                cream made with passion and<br> treat your taste 
+                buds to an<br> unforgettable experience!<br>
+                <img class="img__arrow" src="images/tablet/arrow-tablet.png" alt="arrow"
+                width="26px"
+                height="26px"></p>
+            </div>
+            <div class="header__container--tasty"> 
+                    <img class="img__tasty" src="images/tablet/tasty-tablet.png" alt="helado rico"
+                       >
+                </div>
+                <div>   
+                        <button class="header__btn--buy" type="submit">Buy now 
+                            <svg class="header__svg--arrow">
+                            <use href="images/svg/icons.svg#major-symbol-red"></use>
+                        </svg></button>
+                        </div>
+                      <div class="header__container--numbers">
+                              <svg class="header__svg--arrow">
+                            <use href="images/svg/icons.svg#elipse1"></use>
+                        </svg>
+                        <p class="header__text--16">16 </p>                     
+                        <p class="header__text--23">23</p>                                                
+                      </div>
+                      <div class="header__container--places">
+                           <p class="header__text--cafes">cafes</p>
+                           <p class="header__text--foodtruck">food truck</p>
+                      </div>
+                        
+    </header>
+    </section>
+   
+    <section class="products__container">
+          <main>    
+
+      <h2 class="products__title--natural">100% Natural</h2>
+      <p class="products__title--products">Products</p>
+    
+        <section class="products__container--cards">
+      <section class="card__strawberry--section">
+        <img
+        class="product__img--strawberry"
+        src="images/movile/strawberry-ice-cream-movile.png"
+        alt=""
+        />
+        <div class="font-card">
+          <div class="seccion-content-card">
+            <p class="product__title">ICE CREAM</p>
+            <span
+            ><svg class="svg__cards">
+              <use href="images/SVG/icons.svg#3-points"></use>
+            </svg>
+          </span>
+          <p class="product__text">
+            Indulge in our rich and <br> creamy ice cream,<br> handcrafted with
+            all-natural<br> ingredients and available in a<br> variety of flavors.
+          </p>
+          <span>
+            <img class="svg__cards" src="images/movile/arrow-right-4-movile.png" alt=""
+            /></span>
+          </div>
+        </div>
+      </section>
+      <section class="card__coffee--section">
+        <img
+        class="product__img--coffee"
+        src="images/movile/ice-coffee-movile.png"
+        alt=""
+        />
+        <div class="font-card">
+          <div class="seccion-content-card">
+            <p class="product__title">ICE COFFEE</p>
+            <span
+              ><svg class="svg__cards">
+                <use href="images/SVG/icons.svg#3-points"></use>
+              </svg>
+            </span>
+            <p class="product__text">
+              Refresh and energize with our <br> perfectly brewed iced coffee,<br> made
+              with high-quality<br> beans and served over ice.
+            </p>
+            <span>
+              <img class="svg__cards" src="images/movile/arrow-right-4-movile.png" alt=""
+            /></span>
+          </div>
+        </div>
+      </section>
+      <section class="card__milkshake--section">
+        <img
+          class="product__img--milkshake"
+          src="images/movile/milkshakes-movile.png"
+          alt=""
+        />
+        <div class="font-card">
+          <div class="seccion-content-card">
+            <p class="product__title">MILKSHAKES</p>
+            <span
+              ><svg class="svg__cards">
+                <use href="images/SVG/icons.svg#3-points"></use>
+              </svg>
+            </span>
+            <p class="product__text">
+              Satisfy your sweet tooth with <br> our thick, made with <br> premium ice
+              cream, topped <br> with whipped cream and your <br> favorite toppings.
+            </p>
+            <span>
+              <img class="svg__cards" src="images/movile/arrow-right-4-movile.png" alt=""
+            /></span>
+          </div>
+        </div>
+      </section>
+     </section> 
+
+      <section class="him__container">
+        <div class="him__title--container">
+          <h2 class="him__title--tradition">tradition and love</h2>
+          <p class="him__title--him">how it’s <br> made?</p>
+           <p class="him__title--him2">how it’s made?</p>
+        </div>
+        <div class="him__container--imgcow">
+
+          <img class="him__img--cow" src="images/movile/how-its-made-cow-movile.png" alt="" />
+        </div>
+        
+          <section class="him__bg">          
+
+          <div class="him__text--container">
+              <p class="him__text">
+                Ice is a place where you will <br> become not only a little happier, <br> but
+                also healthier. Health is the <br> main value for us, and we follow it <br>
+                when creating our handmade <br> desserts.
+              </p>
+              <p class="him__text--2">
+                We use traditional recipes and <br> 100% natural ingredients. Our <br>
+                products are so natural that they <br> can be given to children from the <br>
+                age of three years. lovers <br>
+                can expect 55 types of ice cream, <br>
+                15 types of coffee and 23 <br> milkshakes.
+              </p>
+          </div> 
+
+
+             <div class="him__text--container2">
+                  <p class="him__text--tablet">
+                Ice is a place where you will  become not only <br>a little happier,  but
+                also healthier. Health is the <br> main value for us, and we follow it 
+                when <br> creating  our handmade desserts.
+                  </p>
+                  <p class="him__text--tablet--2">
+                We use traditional recipes and 100% natural <br> ingredients. Our products are so natural <br> that they can  be given to children from the age of <br> three years. Sweets  lovers can expect 55 <br> types of  ice cream, 15 types of  coffee and 23 <br> milkshakes. 
+              </p>
+              </div> 
+
+
+          </section>
+          <div class="him__btn--display">
+
+            <button class="him__btn--read">
+              Read more
+              <span>
+                <svg class="him__btn--svg">
+                  <use href="images/SVG/icons.svg#major-symbol-red"></use>
+                </svg>
+              </span>
+            </button>
+          </div>
+        </div>
+
+    
+        <div class="cont-tittle-vasos">
+          <div>
+            <span
+              ><svg class="him__svgs">
+                <use href="images/SVG/icons.svg#glass"></use>
+              </svg>
+            </span>
+            <p class="him__title--cow">721</p>  
+            <p class="him__text--cow">
+              At 721 Cow, we're passionate about producing <br> the highest quality
+              ice cream possible.
+            </p>
+          </div>
+          <div>
+            <span>
+              <svg class="him__svgs">
+                <use href="images/SVG/icons.svg#glass-cherries"></use>
+              </svg>
+            </span>
+            <p class="him__title--cow">16kg</p>
+            <p class="him__text--cow">
+              You can be sure you're getting a scoop of the <br />freshest ice
+              cream around.
+            </p>
+          </div>
+          <div>
+            <span>
+              <span>
+                <svg class="him__svgs">
+                  <use href="images/SVG/icons.svg#popsicle"></use>
+                </svg>
+              </span>
+              <p class="him__title--cow">84</p>
+              <p class="him__text--cow">
+                We use only the freshest, locally-sourced <br> ingredients to
+                make our 84 unique and <br>
+                delicious flavors.
+              </p>
+            </span>
+          </div>
+        </div>
+      </section>
+
+
+   <section class="testimonial__container">
+    <div>
+        <img class="testimonial__img--group" src="images/movile/Group-pics-movile.png" alt="" />
+        </div>
+        <div>
+        <img class="testimonial__img--group--tablet" src="images/tablet/Group-pics-tablet.png" alt="" />
+        </div>
+               
+        <div>
+          <img class="testimonial__img--emily" src="images/movile/testimonials-movile.png" alt="" />
+        </div>
+        <div class="testimonial__bg--text">
+          <!-- <div>
+
+            <svg class="testimonial__svg--quotation">
+              <use href="images/SVG/icons.svg#quotation-marks"></use>
+            </svg>
+          </div> -->
+            
+            <div class="testimonial__text--flex">
+              <p class="testimonial__text">
+                I love visiting your cafe. <br>
+                You prepare the most delicious ice cream in Los Angeles! In
+                addition, <br>
+                you have beautiful serving, cozy atmosphere <br>
+                and polite staff.
+              </p>
+              </div>
+              
+            <div class="testimonial__text--flex--tablet">
+              <p class="testimonial__tex--tablet">
+                I love visiting your cafe. 
+                You prepare the most delicious ice cream in <br> Los Angeles! In
+                addition, 
+                you have beautiful serving, cozy <br> atmosphere 
+                and polite staff.
+              </p>
+              </div>
+            <!-- <div>
+              <svg class="testimonial__svg--rectangle">
+                <use href="images/SVG/icons.svg#rectangle"></use>
+              </svg>
+            </div> -->
+          </div>
+          <span
+          ><svg class="svg__footer--btn">
+            <use href="images/SVG/icons.svg#3-points-b"></use>
+          </svg>
+        </span>
+        <p class="testimonial__text--emily">Emily, Los Angeles</p>
+        <span>
+          <svg class="svg__footer--btn">
+            <use href="images/SVG/icons.svg#3-points-house"></use>
+          </svg>
+        </span>    
+          
+     </section>   
+   </main>    
+  <footer>
+    <section class="footer__container">
+  
+<div class="card__container--flex">
+        <div class="card__cafe--cities">
+          
+          <div class="card__cafe--square">
+            <h3 class="card__footer--cafe">CAFE</h3>
+          </div>
+          <div class="cont-city">
+            <p class="card__text--cities">Chicago</p>
+            <p class="card__text--description">Handcrafted coffee, baked goods, and premium ice cream.</p>
+            <span
+              ><svg class="svg__footer--btn">
+                <use href="images/SVG/icons.svg#line"></use>
+              </svg>
+            </span>
+          </div>
+          <div class="card__list--week">
+            <p class="card__schedule--mf">Monday - Friday</p>
+            <p class="card__time--610">06:00 AM - 10:00 PM</p>
+            <p class="card__schedule--ss">Saturday - Sunday</p>
+            <p class="card__time--816">08:00 AM - 16:00 PM</p>
+            <span
+              ><svg class="svg__footer--btn">
+                <use href="images/SVG/icons.svg#line"></use>
+              </svg>
+            </span>
+          </div>
+          <div class="contact">
+            <p class="card__contacts">
+              +61(0) 383 766 284 <br />
+              noreply@envato.com
+            </p>
+          </div>
+        </div>    
+  
+     
+        <div class="card__cafe--cities">
+          <div class="card__cafe--square">            
+            <h3 class="card__footer--foodtruck">FOODTRUCK</h3>
+          </div>
+          <div class="cont-city">
+            <p class="card__text--cities">Los Angeles</p>
+            <p class="card__text--description">Fusion cuisine and refreshing ice cream made with passion.</p>
+            <span
+              ><svg class="svg__footer--btn">
+                <use href="images/SVG/icons.svg#line"></use>
+              </svg>
+            </span>
+          </div>
+          <div class="card__list--week">
+            <p class="card__schedule--mf">Monday - Friday</p>
+            <p class="card__time--610">06:00 AM - 10:00 PM</p>
+            <p class="card__schedule--ss">Saturday - Sunday</p>
+            <p class="card__time--816">08:00 AM - 16:00 PM</p>
+            <span
+              ><svg class="svg__footer--btn">
+                <use href="images/SVG/icons.svg#line"></use>
+              </svg>
+            </span>
+          </div>
+          <div class="contact">
+            <p class="card__contacts">
+              +61(0) 383 766 284 <br />
+              noreply@envato.com
+            </p>
+          </div>
+        </div>                             
+     
+        <div class="card__cafe--cities">
+          <div class="card__cafe--square">
+          <h3 class="card__footer--cafe">CAFE</h3>
+          </div>
+          <div class="cont-city">
+            <p class="card__text--cities">New York</p>
+            <p class="card__text--description">Specialty teas, artisanal pastries, mouth-watering ice cream.</p>
+            <span
+              ><svg class="svg__footer--btn">
+                <use href="images/SVG/icons.svg#line"></use>
+              </svg>
+            </span>
+          </div>
+          <div class="card__list--week">
+            <p class="card__schedule--mf">Monday - Friday</p>
+            <p class="card__time--610">06:00 AM - 10:00 PM</p>
+            <p class="card__schedule--ss">Saturday - Sunday</p>
+            <p class="card__time--816">08:00 AM - 16:00 PM</p>
+            <span
+              ><svg class="svg__footer--btn">
+                <use href="images/SVG/icons.svg#line"></use>
+              </svg>
+            </span>
+          </div>
+          <div class="contact">
+          <p class="card__contacts">
+            +61(0) 383 766 284 <br />
+            noreply@envato.com
+          </p>
+          </div>
+        </div>
+      </div>
+      
+      <section>
+        <div class="footer__btn">
+          <button class="footer__btn--ourlocation">
+            Our locations    
+           
+              <svg class="svg__btn--ourlocation">
+                <use class="footer__svg--ourlocation" href="images/SVG/icons.svg#major-symbol-white"></use>
+              </svg>            
+             
+          </button>
+          <button class="footer__btn--franchise">
+            Franchise
+           
+              <svg class="footer__svg--franchise">
+                <use href="images/SVG/icons.svg#major-symbol-red"></use>
+              </svg>
+           
+          </button>
+        </div>
+        <div class="home__made">
+          <p class="home__made--text">
+            homemade ice cream <br />
+            made
+          </p>
+          <p class="home__passion--text">
+            with <br />
+            passion
+          </p>
+        </div>
+        <div class="footer__social--networks">
+          <span>
+            <svg class="footer__svg--github">
+              <use href="images/SVG/icons.svg#github"></use>
+            </svg>
+          </span>
+          <span>
+            <svg class="footer__svg--telegram">
+              <use href="./images/svg/icons.svg#telegram"></use>
+            </svg>
+          </span>
+          <span>
+            <svg class="footer__svg--facebook" width="50px" height="50px">
+              <use href="./images/svg/icons.svg#facebook"></use>
+            </svg>
+          </span>
+        </div>
+        <div class="footer__contact--container">
+ <p class="footer__contact--free"> Feel free to contact </p>
+ <p class="footer__contact--number">+61 (0) 383 766 284</p>
+        </div>
+       
+        <span>
+          <svg class="footer__svg--underline">
+            <use href="images/SVG/icons.svg#line-footer"></use>
+          </svg>
+        </span>        
+        <p class="footer__copy--right">© 2022 - IceCream.<br>All Rights Reserved.</p>
+      </section>
+    </section>
+  </footer>
+
+ 
+
+
+<div class="backdrop is-hidden" data-modal>
+      <div class="modal__movil">
+        <button type="button" class="modal__btn--close" data-modal-close>
+          <svg class="modal__close--btn--svg">
+            <use href="images/SVG/icons.svg#modal-close"></use>
+          </svg>
+        </button>
+        <div>
+          <button class="modal__btn--buy" type="submit">
+            Buy now
+            <span>
+              <svg>
+                <use href="images/SVG/icons.svg#major-symbol-red"></use>
+              </svg>
+        </div>
+        <div>
+          <ul>
+              <li>Home</li>
+              <li>About us</li>
+              <li>How it’s made?</li>
+              <li>Our products</li>
+              <li>Contact</li>
+            </ul>
+        </div>
+
+    
+
+  
+        <script src="./js/modal.js"></script>
   </body>
-</html>
+  </html>
+
+  

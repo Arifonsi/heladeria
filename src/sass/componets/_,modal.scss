@@ -1,0 +1,33 @@
+.modal__btn--buy {
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #111111bd;
+  display: flex;
+  transition: opacity 300ms ease, visibility 300ms ease;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.is-hidden {
+  visibility: visible;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.modal__movil {
+  width: 254px;
+  height: 502px;
+  background: #e17992;
+  margin: auto;
+  padding: 40px;
+  border-radius: 6px;
+  position: relative;
+  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}

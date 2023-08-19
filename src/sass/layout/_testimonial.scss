@@ -1,0 +1,127 @@
+.testimonial__container {
+  width: 320px;
+  /*   background-color: red; */
+  height: 828px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+}
+
+.testimonial__img--group {
+  margin-top: -27px;
+}
+
+.testimonial__img--emily {
+  margin-top: 55px;
+  margin-left: 20px;
+}
+
+.testimonial__bg--text {
+  width: 280px;
+  height: 307px;
+  margin-left: 25px;
+  background: #fafafa;
+  margin-top: 28px;
+}
+
+.testimonial__svg--quotation {
+  width: 54px;
+  height: 40px;
+  flex-shrink: 0;
+  border: 2px solid red;
+  position: absolute;
+}
+
+.testimonial__text--flex {
+  display: flex;
+  justify-content: center;
+}
+.testimonial__text {
+  color: #000;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 260%; /* 31.2px */
+  letter-spacing: 0.48px;
+  width: 157px;
+  height: 213px;
+  margin-top: 43px;
+  margin-left: 23px;
+}
+
+.testimonial__svg--rectangle {
+  background: #fafafa;
+  border: 2px solid green;
+}
+.testimonial__text--emily {
+  color: #000;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 186%; /* 26.04px */
+  margin-top: -110px;
+}
+/* TABLET---TABLET---TABLET---TABLET---TABLET */
+
+@media (min-width: 768px) {
+  .testimonial__container {
+    width: 768px;
+    height: 1000px;
+  }
+
+  .testimonial__img--group {
+    display: none;
+  }
+  .testimonial__img--group--tablet {
+    width: 768px;
+    height: 327px;
+    margin-top: -187px;
+  }
+  .testimonial__img--emily {
+    margin-top: 95px;
+    width: 85px;
+    height: 85px;
+  }
+  .testimonial__bg--text {
+    width: 620px;
+    height: 164px;
+
+    background-color: rgba(250, 250, 250, 1);
+  }
+
+  .testimonial__text--flex--tablet {
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+  }
+
+  .testimonial__tex--tablet {
+    width: 492px;
+    height: 83px;
+    color: #000;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 214%; /* 29.96px */
+    letter-spacing: 0.56px;
+  }
+  .testimonial__text {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .testimonial__img--group--tablet {
+    display: none;
+  }
+
+  .testimonial__text--flex--tablet {
+    display: none;
+  }
+}

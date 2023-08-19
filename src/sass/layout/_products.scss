@@ -1,0 +1,183 @@
+.products__container {
+  width: 320px;
+  background-color: white;
+  height: 1896px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.products {
+  &__title--natural {
+    color: #ffa5ba;
+    text-align: center;
+    font-family: Titan One;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 65px;
+  }
+}
+.products__title--products {
+  color: #d41443;
+  text-align: center;
+  font-family: Titan One;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.36px;
+  text-transform: uppercase;
+  margin-top: -1px;
+}
+
+.product__img--strawberry {
+  margin-left: 1px;
+  margin-top: -139px;
+}
+
+.card__strawberry--section {
+  width: 280px;
+  height: 489px;
+  flex-shrink: 0;
+  border-radius: 24px;
+  background: #ffb8ca;
+  margin-left: 21px;
+  margin-top: 100px;
+}
+
+.product__title {
+  color: #fff;
+  text-align: center;
+  font-family: Titan One;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+}
+
+.svg__cards {
+  color: rgba(255, 255, 255, 1);
+  margin-left: 126px;
+  margin-top: 15px;
+}
+
+.product__text {
+  color: #fff;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 152%; /* 21.28px */
+  letter-spacing: 0.56px;
+  margin-top: -113px;
+}
+
+.product__img--coffee {
+  margin-left: 1px;
+  margin-top: -138px;
+}
+
+.card__coffee--section {
+  flex-shrink: 0;
+  border-radius: 24px;
+  background: #f0d1a5;
+  width: 280px;
+  height: 489px;
+  flex-shrink: 0;
+  border-radius: 24px;
+  color: rgba(240, 209, 165, 1);
+  margin-left: 21px;
+  margin-top: 138px;
+}
+
+.product__img--milkshake {
+  margin-left: 1px;
+  margin-top: -138px;
+}
+
+.card__milkshake--section {
+  flex-shrink: 0;
+  border-radius: 24px;
+  background: #f0d1a5;
+  width: 280px;
+  height: 489px;
+  flex-shrink: 0;
+  border-radius: 24px;
+  background: #c2e297;
+  margin-left: 21px;
+  margin-top: 138px;
+}
+/* 
+------------TABLET--------------------- */
+
+@media (min-width: 768px) {
+  .products__container--cards {
+    display: flex;
+    align-items: center;
+  }
+  .products__container {
+    width: 768px;
+    height: 1270px;
+  }
+  .products__title--natural {
+    margin-top: -27px;
+    color: #ffa5ba;
+    text-align: center;
+    font-family: Titan One;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+  .products__title--products {
+    color: #d41443;
+    text-align: center;
+    font-family: Titan One;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.92px;
+    text-transform: uppercase;
+  }
+
+  .card__strawberry--section {
+    width: 224px;
+    height: 473px;
+    margin-top: 110x;
+  }
+  .product__img--strawberry {
+    width: 224px;
+  }
+  .card__coffee--section {
+    width: 224px;
+    height: 473px;
+    margin-top: 110px;
+  }
+  .product__img--coffee {
+    width: 224px;
+  }
+
+  .card__milkshake--section {
+    width: 224px;
+    height: 473px;
+    margin-top: 110px;
+  }
+  .product__img--milkshake {
+    width: 224px;
+  }
+
+  .svg__cards {
+    margin-left: 100px;
+  }
+}
+
+@media (max-width: 768px) {
+}

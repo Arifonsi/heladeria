@@ -1,0 +1,344 @@
+.header {
+  &__container {
+    width: 320px;
+    height: 502px;
+    flex-shrink: 0;
+  }
+  &__bg {
+    background-color: #ffb8ca;
+    width: 100vh;
+    height: 200px;
+    width: 100vh;
+    height: 502px;
+    max-width: 100%;
+    overflow: hidden;
+    min-width: 320px;
+  }
+  &__logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    margin-left: 20px;
+    margin-top: 8px;
+    width: 100vh;
+    max-width: 100%;
+  }
+  &__menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  &__btn--menu {
+    width: 31px;
+    height: 22px;
+    background-color: transparent;
+    border: 1px transparent;
+    margin-right: 20px;
+    margin-top: -66px;
+  }
+  &__svg--menu {
+    margin-top: -66px;
+    margin-right: 20px;
+  }
+}
+
+.bg__bigicecream {
+  position: relative;
+  background-color: #ffa5ba;
+  width: 346px;
+  height: 344px;
+  border-radius: 346px;
+  top: 83px;
+  position: absolute;
+  left: 36px;
+  right: -62px;
+}
+
+.bigicecream {
+  position: absolute;
+  left: 81px;
+  top: 10px;
+  right: 32px;
+  width: 171px;
+  height: 410px;
+}
+
+.header__title--container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: sticky;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  left: 20px;
+  top: 180px;
+}
+
+.header__title {
+  color: #fff;
+  font-family: Titan One;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.04px;
+  text-transform: uppercase;
+}
+
+.header__title--passions {
+  color: #d41443;
+  font-family: Titan One;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 96.5%;
+  text-transform: uppercase;
+  margin-top: -20px;
+}
+
+.header__container--btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  gap: 13px;
+  margin-top: -28px;
+}
+
+.btn {
+  &__products {
+    background-color: #d41443;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 400px;
+    line-height: normal;
+    width: 61.2px;
+    height: 24px;
+    color: #fff;
+    text-align: center;
+    font-family: DM Sans;
+  }
+  &__made {
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    color: #d41443;
+    text-align: center;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 400px;
+    line-height: normal;
+    font-family: DM Sans;
+    width: 82.8px;
+    height: 24px;
+  }
+}
+
+@media (min-width: 768px) {
+  .header__bg {
+    overflow-x: hidden;
+    background-color: #ffb8ca;
+    width: 768px;
+    height: 416px;
+  }
+  .header__container {
+    width: 768px;
+    height: 502px;
+  }
+
+  .bg__bigicecream {
+    width: 335px;
+    height: 333px;
+    flex-shrink: 0;
+    border-radius: 335px;
+    background: #ffa5ba;
+    margin-top: -46px;
+    margin-left: 208px;
+  }
+
+  .bigicecream {
+    position: absolute;
+    left: 81px;
+    top: 43px;
+    right: 32px;
+    width: 143px;
+    height: 336px;
+    flex-shrink: 0;
+  }
+
+  .header__logo {
+    margin: 32px 0 0 32px;
+  }
+
+  .header__title {
+    font-size: 22px;
+    letter-spacing: 0.88px;
+    margin-top: -75px;
+    margin-left: 14px;
+  }
+
+  .header__title--passions {
+    font-size: 34px;
+    line-height: 90.5%;
+    margin-left: 14px;
+    letter-spacing: 1.36px;
+  }
+
+  .header__container--btn {
+    margin-top: -12px;
+    margin-left: 14px;
+  }
+  .header__btn--menu {
+    margin-right: 211px;
+  }
+}
+
+/* 
+----TABLET--------TABLET--------TABLET--------TABLET---- */
+
+.header__btn--buy {
+  border-radius: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 159px;
+  height: 44px;
+  border: 0px;
+  color: #d41443;
+  background-color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  margin-top: -379px;
+  margin-left: 570px;
+  position: relative;
+}
+
+.header__svg--arrow {
+  width: 8px;
+  height: 10px;
+  margin-left: 12px;
+}
+
+.header__container--milk {
+  display: flex;
+  margin-top: 106px;
+}
+
+.header__img--milk {
+  margin-left: 30px;
+  width: 152px;
+  height: 154px;
+}
+
+.header__container--milk p {
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 12px; /* 12px */
+  margin-top: 36px;
+  position: relative;
+  margin-left: 7px;
+}
+
+.img__arrow {
+  margin-top: 6px;
+  width: 18px;
+  height: 18px;
+}
+
+.header__container--tasty {
+  display: flex;
+  flex-direction: row-reverse;
+  position: relative;
+}
+
+.img__tasty {
+  margin-top: -134px;
+  width: 190px;
+  height: 150px;
+  margin-right: 37px;
+}
+
+.header__container--numbers {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  color: #d41443;
+  text-align: right;
+  font-family: Titan One;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.12px;
+  text-transform: uppercase;
+}
+
+.header__text--16 {
+  margin-top: 1px;
+  margin-right: 51px;
+}
+
+.header__text--23 {
+  margin-top: 1px;
+  margin-right: 51px;
+}
+
+.header__container--places {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  color: #fff;
+  text-align: right;
+  font-family: DM Sans;
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.header__text--cafes {
+  margin-top: -88px;
+  margin-right: 53px;
+}
+
+.header__text--foodtruck {
+  margin-top: 44px;
+  margin-right: 53px;
+}
+
+@media (max-width: 768px) {
+  .header__container--milk {
+    display: none;
+  }
+  .header__container--tasty {
+    display: none;
+  }
+
+  .header__btn--buy {
+    display: none;
+  }
+  .header__container--numbers {
+    display: none;
+  }
+
+  .header__container--places {
+    display: none;
+  }
+}

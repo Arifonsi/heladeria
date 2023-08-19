@@ -1,0 +1,255 @@
+.him__container {
+  width: 320px;
+  height: 1628px;
+  flex-shrink: 0;
+  background: #fff5f6;
+  margin-top: 8px;
+}
+
+.him__title--container {
+  display: flex;
+  flex-direction: column;
+}
+
+.him__title--tradition {
+  color: #ffa5ba;
+  text-align: center;
+  font-family: Titan One;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-top: 55px;
+}
+
+.him__title--him {
+  flex-shrink: 0;
+  color: #d41443;
+  text-align: center;
+  font-family: Titan One;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.36px;
+  text-transform: uppercase;
+  margin-top: 0px;
+}
+
+.him__img--cow {
+  margin-left: 21px;
+  margin-top: -12;
+  width: 280px;
+  height: 279px;
+  flex-shrink: 0;
+}
+
+.him__text {
+  color: #000;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 162%; /* 19.44px */
+  letter-spacing: 0.48px;
+  margin-left: 37px;
+  margin-top: 34px;
+}
+
+.him__text--2 {
+  color: #907e82;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 162%; /* 19.44px */
+  letter-spacing: 0.48px;
+  margin-left: 37px;
+}
+
+.him__bg {
+  background-image: url(/src/images/movile/how\ its\ made-bg.png);
+  background-repeat: no-repeat;
+  width: 280px;
+  height: 133px;
+  flex-shrink: 0;
+}
+
+.him__btn--display {
+  display: flex;
+}
+
+.him__btn--read {
+  width: 176px;
+  height: 44px;
+  border-radius: 22px;
+  background-color: rgba(255, 255, 255, 1);
+  color: rgba(212, 20, 67, 1);
+  border-color: rgba(255, 255, 255, 1);
+  padding-top: 9px;
+  margin-left: 35px;
+  margin-top: 188px;
+  padding-right: 27px;
+}
+
+.him__btn--svg {
+  margin-left: 123px;
+  margin-top: -13px;
+}
+
+.him__svgs {
+  margin-left: 37px;
+  margin-top: 41px;
+}
+
+.him__title--cow {
+  color: #d41443;
+  font-family: Titan One;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.44px;
+  text-transform: uppercase;
+  margin-top: -87px;
+  margin-left: 37px;
+}
+
+.him__text--cow {
+  color: #000;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 170%; /* 20.4px */
+  letter-spacing: 0.24px;
+  margin-top: -16px;
+  margin-left: 37px;
+}
+
+/* ------------------TABLET----------------- */
+
+@media (min-width: 768px) {
+  .him__container {
+    width: 768px;
+    height: 1150px;
+  }
+  /* .him__bg {
+    display: none;
+  } */
+
+  .him__title--him {
+    display: none;
+  }
+  .him__title--tradition {
+    font-size: 26px;
+  }
+
+  .him__title--him2 {
+    flex-shrink: 0;
+    color: #d41443;
+    text-align: center;
+    font-family: Titan One;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.92px;
+    text-transform: uppercase;
+    margin-top: 0px;
+  }
+
+  .him__text--container {
+    display: none;
+  }
+
+  .him__container--imgcow {
+    display: flex;
+    width: 336px;
+    height: 335px;
+  }
+
+  .him__img--cow {
+    width: 336px;
+    height: 335px;
+    margin-top: 7px;
+    margin-left: 9px;
+  }
+
+  .him__text--container2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 390px;
+    margin-top: -350px;
+  }
+
+  .him__text--tablet {
+    width: 400px;
+    height: 104px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 176%; /* 28.16px */
+    letter-spacing: 0.64px;
+  }
+
+  .him__text--tablet--2 {
+    width: 401px;
+    height: 130px;
+    flex-shrink: 0;
+    color: #907e82;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 194%; /* 27.16px */
+    letter-spacing: 0.56px;
+  }
+
+  .him__btn--display {
+    justify-content: center;
+    margin-top: 23px;
+    margin-left: 150px;
+  }
+
+  .cont-tittle-vasos {
+    display: flex;
+  }
+
+  .him__svgs {
+    width: 50px;
+    height: 50px;
+    margin-top: 47px;
+    margin-left: 19px;
+  }
+  .him__title--cow {
+    width: 98px;
+    height: 56px;
+    font-size: 48px;
+    letter-spacing: 1.92px;
+    margin-top: 28px;
+    margin-left: 19px;
+  }
+  .him__text--cow {
+    width: 165px;
+    height: 113px;
+    flex-shrink: 0;
+    font-size: 14px;
+    line-height: 174%; /* 24.36px */
+    letter-spacing: 0.28px;
+    margin-left: 19px;
+  }
+}
+
+@media (max-width: 768px) {
+  .him__text--container2 {
+    display: none;
+  }
+  .him__title--him2 {
+    display: none;
+  }
+}
