@@ -181,3 +181,66 @@
 
 @media (max-width: 768px) {
 }
+
+/* DESKTOP */
+
+@media (min-width: 1280px) {
+  .products__container {
+    width: 1280px;
+    height: 1270px;
+  }
+  .products__title--natural {
+    margin-top: 50px;
+    font-size: 30px;
+  }
+  .products__title--products {
+    font-size: 58px;
+    letter-spacing: 3.48px;
+  }
+  .products__container--cards {
+    margin-top: 170px;
+  }
+
+  .card__strawberry--section {
+    width: 368px;
+    height: 535px;
+    margin-top: 110px;
+  }
+  .product__img--strawberry {
+    width: 368px;
+    height: 394px;
+    margin-top: -270px;
+  }
+  .card__coffee--section {
+    width: 368px;
+    height: 535px;
+    margin-top: 110px;
+  }
+  .product__img--coffee {
+    width: 368px;
+    height: 394px;
+    margin-top: -270px;
+  }
+  .card__milkshake--section {
+    width: 368px;
+    height: 535px;
+    margin-top: 110px;
+  }
+  .product__img--milkshake {
+    width: 368px;
+    height: 394px;
+    margin-top: -270px;
+  }
+
+  .svg__cards {
+    margin-left: 167px;
+  }
+
+  .product__text {
+    font-size: 16px;
+  }
+
+  .product__title {
+    font-size: 30px;
+  }
+}

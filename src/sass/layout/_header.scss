@@ -342,3 +342,191 @@
     display: none;
   }
 }
+
+/* DESKTOP */
+
+@media (min-width: 1280px) {
+  .header__bg {
+    overflow-x: hidden;
+    background-color: #ffb8ca;
+    width: 1280px;
+    height: 664px;
+  }
+  .header__container {
+    width: 1280px;
+    height: 664px;
+  }
+
+  .bg__bigicecream {
+    width: 534px;
+    height: 534px;
+    flex-shrink: 0;
+    border-radius: 534px;
+    background: #ffa5ba;
+    margin-top: -26px;
+    margin-left: 548px;
+  }
+
+  .bigicecream {
+    position: absolute;
+    left: 126px;
+    top: 49px;
+    right: 32px;
+    width: 236px;
+    height: 557px;
+    flex-shrink: 0;
+  }
+
+  .header__logo {
+    margin: 37px 0 0 37px;
+  }
+
+  .header__title {
+    font-size: 38px;
+    letter-spacing: 1.52px;
+    margin-top: -30px;
+    margin-left: 40px;
+  }
+
+  .header__title--passions {
+    font-size: 58px;
+    line-height: 90.5%;
+    margin-left: 40px;
+    letter-spacing: 2.32px;
+    margin-top: -33px;
+  }
+
+  .header__container--btn {
+    margin-top: -35px;
+    margin-left: 40px;
+  }
+  .header__btn--menu {
+    margin-right: 211px;
+  }
+}
+
+.header__barra--list {
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  cursor: pointer;
+  top: 40px;
+  left: 325px;
+  display: flex;
+  position: absolute;
+  letter-spacing: 1.2px;
+}
+
+.header__barra--list li {
+  margin-left: 35px;
+}
+
+.header__barra--list:hover {
+  color: #d41443;
+}
+
+@media (min-width: 1280px) {
+  .header__btn--buy {
+    margin-top: -645px;
+    margin-left: 1090px;
+  }
+
+  .header__svg--arrow {
+    width: 8px;
+    height: 10px;
+    margin-left: 12px;
+  }
+
+  .header__container--milk {
+    margin-top: 154px;
+    height: 216px;
+    margin-left: 40px;
+  }
+
+  .header__img--milk {
+    margin-left: 6px;
+    width: 213px;
+    height: 216px;
+    margin-top: -10px;
+  }
+
+  .header__container--milk p {
+    font-size: 14px;
+    margin-top: 65px;
+  }
+
+  .img__arrow {
+    margin-top: 6px;
+    width: 18px;
+    height: 18px;
+  }
+
+  .header__container--tasty {
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+  }
+
+  .img__tasty {
+    margin-top: -134px;
+    width: 304px;
+    height: 241px;
+    margin-right: 27px;
+    margin-top: -198px;
+  }
+
+  .header__container--numbers {
+    font-size: 46px;
+    margin-top: 50px;
+    letter-spacing: 1.84px;
+  }
+
+  .header__text--16 {
+    margin-top: 1px;
+    margin-right: 51px;
+  }
+
+  .header__text--23 {
+    margin-top: 1px;
+    margin-right: 51px;
+  }
+
+  .header__text--cafes {
+    margin-top: -145px;
+    font-size: 14px;
+    margin-right: 53px;
+  }
+
+  .header__text--foodtruck {
+    margin-top: 70px;
+    font-size: 14px;
+    margin-right: 53px;
+  }
+
+  .btn__products {
+    width: 107px;
+    height: 40px;
+    font-size: 20px;
+  }
+
+  .btn__made {
+    width: 138px;
+    height: 40px;
+    font-size: 14px;
+  }
+
+  .header__svg--menu {
+    display: none;
+  }
+}
+
+/* --------barra-out--------- */
+
+@media (max-width: 1280px) {
+  .header__navigator--desktop {
+    display: none;
+  }
+}
